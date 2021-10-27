@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!-- mi hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+    <h1>Mini Agenda</h1>
+</header>
+
+<main>
+
+    <form class="form" data-accion="crear">
+        <input type="text" class="form-input" placeholder="Agrega Una tarea" id="nombre" name="nombre" minlength="3" maxlength="50" required>
+        <select name="nivel" class="form-input">
+            <option value="#70ff95">Normal</option>
+            <option value="#edef6f">Medio</option>
+            <option value="#ff5959">Alto</option>
+        </select>
+        <button class="form-send">Agregar</button>
+    </form>
+
+    <section class="lista">
+
+
+    </section>
+
+</main>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
